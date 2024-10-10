@@ -1,1 +1,1 @@
-
+This is the HTML script I developed for a movie theater while I was assistant manager there this last summer. It uses JavaScript and CSS and create a rather intuative automatically updated showtime viewer.
