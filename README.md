@@ -1,2 +1,2 @@
-# CalebPenley-WorkPortfolio
-Caleb Penley's Work Portfolio – A curated showcase of projects in software engineering, data science, algorithms, UX design, web development, and more, highlighting skills developed through coursework and personal projects.
+# Caleb Penley's Work Portfolio
+This is my work portfolio – a curated showcase of projects in software engineering, data science, algorithms, UX/UI design, web development, and more, highlighting skills developed throughout my coursework and personal projects.
