@@ -1,0 +1,202 @@
+[
+    {
+      "input": "",
+      "output": "\n<|user|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.</s>\n<|assistant|>\nWell, I thought we'd start with pronunciation, if that's okay with you."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.\n###</s>",
+      "output": "\n<|user|>\nWell, I thought we'd start with pronunciation, if that's okay with you.</s>\n<|assistant|>\nNot the hacking and gagging and spitting part. Please."
+    },
+    {
+      "input": "<|context|>\n<|user|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.</s>\n<|assistant|>\nWell, I thought we'd start with pronunciation, if that's okay with you.\n###</s>",
+      "output": "\n<|user|>\nNot the hacking and gagging and spitting part. Please.</s>\n<|assistant|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?"
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.\n<|user|>\nWell, I thought we'd start with pronunciation, if that's okay with you.</s>\n<|assistant|>\nNot the hacking and gagging and spitting part. Please.\n###</s>",
+      "output": "\n<|user|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?</s>\n<|assistant|>\nYou're asking me out. That's so cute. What's your name again?"
+    },
+    {
+      "input": "<|context|>\n<|user|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.</s>\n<|assistant|>\nWell, I thought we'd start with pronunciation, if that's okay with you.\n<|user|>\nNot the hacking and gagging and spitting part. Please.</s>\n<|assistant|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?\n###</s>",
+      "output": "\n<|user|>\nYou're asking me out. That's so cute. What's your name again?</s>\n<|assistant|>\nForget it."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.\n<|user|>\nWell, I thought we'd start with pronunciation, if that's okay with you.</s>\n<|assistant|>\nNot the hacking and gagging and spitting part. Please.\n<|user|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?</s>\n<|assistant|>\nYou're asking me out. That's so cute. What's your name again?\n###</s>",
+      "output": "\n<|user|>\nForget it.</s>\n<|assistant|>\nNo, no, it's my fault -- we didn't have a proper introduction ---"
+    },
+    {
+      "input": "<|context|>\n<|user|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.</s>\n<|assistant|>\nWell, I thought we'd start with pronunciation, if that's okay with you.\n<|user|>\nNot the hacking and gagging and spitting part. Please.</s>\n<|assistant|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?\n<|user|>\nYou're asking me out. That's so cute. What's your name again?</s>\n<|assistant|>\nForget it.\n###</s>",
+      "output": "\n<|user|>\nNo, no, it's my fault -- we didn't have a proper introduction ---</s>\n<|assistant|>\nCameron."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.\n<|user|>\nWell, I thought we'd start with pronunciation, if that's okay with you.</s>\n<|assistant|>\nNot the hacking and gagging and spitting part. Please.\n<|user|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?</s>\n<|assistant|>\nYou're asking me out. That's so cute. What's your name again?\n<|user|>\nForget it.</s>\n<|assistant|>\nNo, no, it's my fault -- we didn't have a proper introduction ---\n###</s>",
+      "output": "\n<|user|>\nCameron.</s>\n<|assistant|>\nThe thing is, Cameron -- I'm at the mercy of a particularly hideous breed of loser. My sister. I can't date until she does."
+    },
+    {
+      "input": "<|context|>\n<|user|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.</s>\n<|assistant|>\nWell, I thought we'd start with pronunciation, if that's okay with you.\n<|user|>\nNot the hacking and gagging and spitting part. Please.</s>\n<|assistant|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?\n<|user|>\nYou're asking me out. That's so cute. What's your name again?</s>\n<|assistant|>\nForget it.\n<|user|>\nNo, no, it's my fault -- we didn't have a proper introduction ---</s>\n<|assistant|>\nCameron.\n###</s>",
+      "output": "\n<|user|>\nThe thing is, Cameron -- I'm at the mercy of a particularly hideous breed of loser. My sister. I can't date until she does.</s>\n<|assistant|>\nSeems like she could get a date easy enough...;Why? "
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.\n<|user|>\nWell, I thought we'd start with pronunciation, if that's okay with you.</s>\n<|assistant|>\nNot the hacking and gagging and spitting part. Please.\n<|user|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?</s>\n<|assistant|>\nYou're asking me out. That's so cute. What's your name again?\n<|user|>\nForget it.</s>\n<|assistant|>\nNo, no, it's my fault -- we didn't have a proper introduction ---\n<|user|>\nCameron.</s>\n<|assistant|>\nThe thing is, Cameron -- I'm at the mercy of a particularly hideous breed of loser. My sister. I can't date until she does.\n###</s>",
+      "output": "\n<|user|>\nSeems like she could get a date easy enough...;Why? </s>\n<|assistant|>\nUnsolved mystery. She used to be really popular when she started high school, then it was just like she got sick of it or something."
+    },
+    {
+      "input": "<|context|>\n<|user|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.</s>\n<|assistant|>\nWell, I thought we'd start with pronunciation, if that's okay with you.\n<|user|>\nNot the hacking and gagging and spitting part. Please.</s>\n<|assistant|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?\n<|user|>\nYou're asking me out. That's so cute. What's your name again?</s>\n<|assistant|>\nForget it.\n<|user|>\nNo, no, it's my fault -- we didn't have a proper introduction ---</s>\n<|assistant|>\nCameron.\n<|user|>\nThe thing is, Cameron -- I'm at the mercy of a particularly hideous breed of loser. My sister. I can't date until she does.</s>\n<|assistant|>\nSeems like she could get a date easy enough...;Why? \n###</s>",
+      "output": "\n<|user|>\nUnsolved mystery. She used to be really popular when she started high school, then it was just like she got sick of it or something.</s>\n<|assistant|>\nThat's a shame."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.\n<|user|>\nWell, I thought we'd start with pronunciation, if that's okay with you.</s>\n<|assistant|>\nNot the hacking and gagging and spitting part. Please.\n<|user|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?</s>\n<|assistant|>\nYou're asking me out. That's so cute. What's your name again?\n<|user|>\nForget it.</s>\n<|assistant|>\nNo, no, it's my fault -- we didn't have a proper introduction ---\n<|user|>\nCameron.</s>\n<|assistant|>\nThe thing is, Cameron -- I'm at the mercy of a particularly hideous breed of loser. My sister. I can't date until she does.\n<|user|>\nSeems like she could get a date easy enough...;Why? </s>\n<|assistant|>\nUnsolved mystery. She used to be really popular when she started high school, then it was just like she got sick of it or something.\n###</s>",
+      "output": "\n<|user|>\nThat's a shame.</s>\n<|assistant|>\nGosh, if only we could find Kat a boyfriend..."
+    },
+    {
+      "input": "<|context|>\n<|user|>\nCan we make this quick? Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad. Again.</s>\n<|assistant|>\nWell, I thought we'd start with pronunciation, if that's okay with you.\n<|user|>\nNot the hacking and gagging and spitting part. Please.</s>\n<|assistant|>\nOkay... then how 'bout we try out some French cuisine. Saturday? Night?\n<|user|>\nYou're asking me out. That's so cute. What's your name again?</s>\n<|assistant|>\nForget it.\n<|user|>\nNo, no, it's my fault -- we didn't have a proper introduction ---</s>\n<|assistant|>\nCameron.\n<|user|>\nThe thing is, Cameron -- I'm at the mercy of a particularly hideous breed of loser. My sister. I can't date until she does.</s>\n<|assistant|>\nSeems like she could get a date easy enough...;Why? \n<|user|>\nUnsolved mystery. She used to be really popular when she started high school, then it was just like she got sick of it or something.</s>\n<|assistant|>\nThat's a shame.\n###</s>",
+      "output": "\n<|user|>\nGosh, if only we could find Kat a boyfriend...</s>\n<|assistant|>\nLet me see what I can do."
+    },
+    {
+      "input": "",
+      "output": "\n<|user|>\nC'esc ma tete. This is my head</s>\n<|assistant|>\nRight. See? You're ready for the quiz."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nC'esc ma tete. This is my head\n###</s>",
+      "output": "\n<|user|>\nRight. See? You're ready for the quiz.</s>\n<|assistant|>\nI don't want to know how to say that though. I want to know useful things. Like where the good stores are. How much does champagne cost? Stuff like that. I have never in my life had to point out my head to someone."
+    },
+    {
+      "input": "<|context|>\n<|user|>\nC'esc ma tete. This is my head</s>\n<|assistant|>\nRight. See? You're ready for the quiz.\n###</s>",
+      "output": "\n<|user|>\nI don't want to know how to say that though. I want to know useful things. Like where the good stores are. How much does champagne cost? Stuff like that. I have never in my life had to point out my head to someone.</s>\n<|assistant|>\nThat's because it's such a nice one."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nC'esc ma tete. This is my head\n<|user|>\nRight. See? You're ready for the quiz.</s>\n<|assistant|>\nI don't want to know how to say that though. I want to know useful things. Like where the good stores are. How much does champagne cost? Stuff like that. I have never in my life had to point out my head to someone.\n###</s>",
+      "output": "\n<|user|>\nThat's because it's such a nice one.</s>\n<|assistant|>\nForget French.;How is our little Find the Wench A Date plan progressing? "
+    },
+    {
+      "input": "<|context|>\n<|user|>\nC'esc ma tete. This is my head</s>\n<|assistant|>\nRight. See? You're ready for the quiz.\n<|user|>\nI don't want to know how to say that though. I want to know useful things. Like where the good stores are. How much does champagne cost? Stuff like that. I have never in my life had to point out my head to someone.</s>\n<|assistant|>\nThat's because it's such a nice one.\n###</s>",
+      "output": "\n<|user|>\nForget French.;How is our little Find the Wench A Date plan progressing? </s>\n<|assistant|>\nWell, there's someone I think might be --"
+    },
+    {
+      "input": "",
+      "output": "\n<|user|>\nThere.</s>\n<|assistant|>\nWhere?"
+    },
+    {
+      "input": "",
+      "output": "\n<|user|>\nYou got something on your mind?</s>\n<|assistant|>\nI counted on you to help my cause. You and that thug are obviously failing. Aren't we ever going on our date?"
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nYou got something on your mind?\n###</s>",
+      "output": "\n<|user|>\nI counted on you to help my cause. You and that thug are obviously failing. Aren't we ever going on our date?</s>\n<|assistant|>\nYou have my word. As a gentleman"
+    },
+    {
+      "input": "<|context|>\n<|user|>\nYou got something on your mind?</s>\n<|assistant|>\nI counted on you to help my cause. You and that thug are obviously failing. Aren't we ever going on our date?\n###</s>",
+      "output": "\n<|user|>\nYou have my word. As a gentleman</s>\n<|assistant|>\nYou're sweet."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nYou got something on your mind?\n<|user|>\nI counted on you to help my cause. You and that thug are obviously failing. Aren't we ever going on our date?</s>\n<|assistant|>\nYou have my word. As a gentleman\n###</s>",
+      "output": "\n<|user|>\nYou're sweet.</s>\n<|assistant|>\nHow do you get your hair to look like that?"
+    },
+    {
+      "input": "<|context|>\n<|user|>\nYou got something on your mind?</s>\n<|assistant|>\nI counted on you to help my cause. You and that thug are obviously failing. Aren't we ever going on our date?\n<|user|>\nYou have my word. As a gentleman</s>\n<|assistant|>\nYou're sweet.\n###</s>",
+      "output": "\n<|user|>\nHow do you get your hair to look like that?</s>\n<|assistant|>\nEber's Deep Conditioner every two days. And I never, ever use a blowdryer without the diffuser attachment."
+    },
+    {
+      "input": "",
+      "output": "\n<|user|>\nSure have.</s>\n<|assistant|>\nI really, really, really wanna go, but I can't. Not unless my sister goes."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nSure have.\n###</s>",
+      "output": "\n<|user|>\nI really, really, really wanna go, but I can't. Not unless my sister goes.</s>\n<|assistant|>\nI'm workin' on it. But she doesn't seem to be goin' for him.;She's not a... "
+    },
+    {
+      "input": "<|context|>\n<|user|>\nSure have.</s>\n<|assistant|>\nI really, really, really wanna go, but I can't. Not unless my sister goes.\n###</s>",
+      "output": "\n<|user|>\nI'm workin' on it. But she doesn't seem to be goin' for him.;She's not a... </s>\n<|assistant|>\nLesbian? No. I found a picture of Jared Leto in one of her drawers, so I'm pretty sure she's not harboring same-sex tendencies."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nSure have.\n<|user|>\nI really, really, really wanna go, but I can't. Not unless my sister goes.</s>\n<|assistant|>\nI'm workin' on it. But she doesn't seem to be goin' for him.;She's not a... \n###</s>",
+      "output": "\n<|user|>\nLesbian? No. I found a picture of Jared Leto in one of her drawers, so I'm pretty sure she's not harboring same-sex tendencies.</s>\n<|assistant|>\nSo that's the kind of guy she likes? Pretty ones?"
+    },
+    {
+      "input": "<|context|>\n<|user|>\nSure have.</s>\n<|assistant|>\nI really, really, really wanna go, but I can't. Not unless my sister goes.\n<|user|>\nI'm workin' on it. But she doesn't seem to be goin' for him.;She's not a... </s>\n<|assistant|>\nLesbian? No. I found a picture of Jared Leto in one of her drawers, so I'm pretty sure she's not harboring same-sex tendencies.\n###</s>",
+      "output": "\n<|user|>\nSo that's the kind of guy she likes? Pretty ones?</s>\n<|assistant|>\nWho knows? All I've ever heard her say is that she'd dip before dating a guy that smokes."
+    },
+    {
+      "input": "",
+      "output": "\n<|user|>\nHi.</s>\n<|assistant|>\nLooks like things worked out tonight, huh?"
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nHi.\n###</s>",
+      "output": "\n<|user|>\nLooks like things worked out tonight, huh?</s>\n<|assistant|>\nYou know Chastity?"
+    },
+    {
+      "input": "<|context|>\n<|user|>\nHi.</s>\n<|assistant|>\nLooks like things worked out tonight, huh?\n###</s>",
+      "output": "\n<|user|>\nYou know Chastity?</s>\n<|assistant|>\nI believe we share an art instructor"
+    },
+    {
+      "input": "",
+      "output": "\n<|user|>\nHave fun tonight?</s>\n<|assistant|>\nTons"
+    },
+    {
+      "input": "",
+      "output": "\n<|user|>\nI looked for you back at the party, but you always seemed to be \"occupied\".</s>\n<|assistant|>\nI was?"
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nI looked for you back at the party, but you always seemed to be \"occupied\".\n###</s>",
+      "output": "\n<|user|>\nI was?</s>\n<|assistant|>\nYou never wanted to go out with 'me, did you?"
+    },
+    {
+      "input": "<|context|>\n<|user|>\nI looked for you back at the party, but you always seemed to be \"occupied\".</s>\n<|assistant|>\nI was?\n###</s>",
+      "output": "\n<|user|>\nYou never wanted to go out with 'me, did you?</s>\n<|assistant|>\nWell, no..."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nI looked for you back at the party, but you always seemed to be \"occupied\".\n<|user|>\nI was?</s>\n<|assistant|>\nYou never wanted to go out with 'me, did you?\n###</s>",
+      "output": "\n<|user|>\nWell, no...</s>\n<|assistant|>\nThen that's all you had to say."
+    },
+    {
+      "input": "<|context|>\n<|user|>\nI looked for you back at the party, but you always seemed to be \"occupied\".</s>\n<|assistant|>\nI was?\n<|user|>\nYou never wanted to go out with 'me, did you?</s>\n<|assistant|>\nWell, no...\n###</s>",
+      "output": "\n<|user|>\nThen that's all you had to say.</s>\n<|assistant|>\nBut"
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nI looked for you back at the party, but you always seemed to be \"occupied\".\n<|user|>\nI was?</s>\n<|assistant|>\nYou never wanted to go out with 'me, did you?\n<|user|>\nWell, no...</s>\n<|assistant|>\nThen that's all you had to say.\n###</s>",
+      "output": "\n<|user|>\nBut</s>\n<|assistant|>\nYou always been this selfish?"
+    },
+    {
+      "input": "",
+      "output": "\n<|user|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"</s>\n<|assistant|>\nNo..."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"\n###</s>",
+      "output": "\n<|user|>\nNo...</s>\n<|assistant|>\ndo you listen to this crap?"
+    },
+    {
+      "input": "<|context|>\n<|user|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"</s>\n<|assistant|>\nNo...\n###</s>",
+      "output": "\n<|user|>\ndo you listen to this crap?</s>\n<|assistant|>\nWhat crap?"
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"\n<|user|>\nNo...</s>\n<|assistant|>\ndo you listen to this crap?\n###</s>",
+      "output": "\n<|user|>\nWhat crap?</s>\n<|assistant|>\nMe. This endless ...blonde babble. I'm like, boring myself."
+    },
+    {
+      "input": "<|context|>\n<|user|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"</s>\n<|assistant|>\nNo...\n<|user|>\ndo you listen to this crap?</s>\n<|assistant|>\nWhat crap?\n###</s>",
+      "output": "\n<|user|>\nMe. This endless ...blonde babble. I'm like, boring myself.</s>\n<|assistant|>\nThank God! If I had to hear one more story about your coiffure...;I figured you'd get to the good stuff eventually. "
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"\n<|user|>\nNo...</s>\n<|assistant|>\ndo you listen to this crap?\n<|user|>\nWhat crap?</s>\n<|assistant|>\nMe. This endless ...blonde babble. I'm like, boring myself.\n###</s>",
+      "output": "\n<|user|>\nThank God! If I had to hear one more story about your coiffure...;I figured you'd get to the good stuff eventually. </s>\n<|assistant|>\nWhat good stuff?"
+    },
+    {
+      "input": "<|context|>\n<|user|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"</s>\n<|assistant|>\nNo...\n<|user|>\ndo you listen to this crap?</s>\n<|assistant|>\nWhat crap?\n<|user|>\nMe. This endless ...blonde babble. I'm like, boring myself.</s>\n<|assistant|>\nThank God! If I had to hear one more story about your coiffure...;I figured you'd get to the good stuff eventually. \n###</s>",
+      "output": "\n<|user|>\nWhat good stuff?</s>\n<|assistant|>\nThe \"real you\"."
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"\n<|user|>\nNo...</s>\n<|assistant|>\ndo you listen to this crap?\n<|user|>\nWhat crap?</s>\n<|assistant|>\nMe. This endless ...blonde babble. I'm like, boring myself.\n<|user|>\nThank God! If I had to hear one more story about your coiffure...;I figured you'd get to the good stuff eventually. </s>\n<|assistant|>\nWhat good stuff?\n###</s>",
+      "output": "\n<|user|>\nThe \"real you\".</s>\n<|assistant|>\nLike my fear of wearing pastels?;I'm kidding. You know how sometimes you just become this \"persona\"? And you don't know how to quit? "
+    },
+    {
+      "input": "<|context|>\n<|user|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"</s>\n<|assistant|>\nNo...\n<|user|>\ndo you listen to this crap?</s>\n<|assistant|>\nWhat crap?\n<|user|>\nMe. This endless ...blonde babble. I'm like, boring myself.</s>\n<|assistant|>\nThank God! If I had to hear one more story about your coiffure...;I figured you'd get to the good stuff eventually. \n<|user|>\nWhat good stuff?</s>\n<|assistant|>\nThe \"real you\".\n###</s>",
+      "output": "\n<|user|>\nLike my fear of wearing pastels?;I'm kidding. You know how sometimes you just become this \"persona\"? And you don't know how to quit? </s>\n<|assistant|>\nNo"
+    },
+    {
+      "input": "<|context|>\n<|assistant|>\nThen Guillermo says, \"If you go any lighter, you're gonna look like an extra on 90210.\"\n<|user|>\nNo...</s>\n<|assistant|>\ndo you listen to this crap?\n<|user|>\nWhat crap?</s>\n<|assistant|>\nMe. This endless ...blonde babble. I'm like, boring myself.\n<|user|>\nThank God! If I had to hear one more story about your coiffure...;I figured you'd get to the good stuff eventually. </s>\n<|assistant|>\nWhat good stuff?\n<|user|>\nThe \"real you\".</s>\n<|assistant|>\nLike my fear of wearing pastels?;I'm kidding. You know how sometimes you just become this \"persona\"? And you don't know how to quit? \n###</s>",
+      "output": "\n<|user|>\nNo</s>\n<|assistant|>\nOkay -- you're gonna need to learn how to lie."
+    },
+    {
+      "input": "",
+      "output": "\n<|user|>\nWow</s>\n<|assistant|>\nLet's go."
+    }
+  ]

@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <style>
+
+   html, body {
+
+        overflow: hidden;
+
+    }
+
+   
+
+       img {
+
+           display: block;
+
+           margin-left: auto;
+
+           margin-right: auto;
+
+           width: 25%;
+
+           height: auto;
+
+       }
+
+       
+
+       .fanimg {
+
+           margin-top: 40px;
+
+           display: block;
+
+           width: 5%;
+
+           margin-left: auto;
+
+           margin-right: auto;
+
+       }
+
+       .fanimg img {
+
+           display: inline-block;
+
+           width: 100%;
+
+       }
+
+       
+
+       
+
+       body {
+
+           font-family: Arial, sans-serif;
+
+           margin: 10px;
+
+           padding: 0;
+
+       }
+
+       .movies-container {
+
+           display: flex;
+
+           flex-wrap: wrap;
+
+           justify-content: space-around;
+
+       }
+
+       .movie {
+
+           position: relative;
+
+           flex: 0 0 calc(25%);
+
+           margin-bottom: 55px;
+
+           border: 1px solid #ccc;
+
+           padding: 0px;
+
+           box-sizing: border-box;
+
+           text-align: center;
+
+       }
+
+       .movie img {
+
+           margin-top: 10%;
+
+           width: calc(75%);
+
+           height: auto;
+
+           margin-bottom: 10px;
+
+       }
+
+       
+
+       .showtimes {
+
+           margin-top: 1px;
+
+       }
+
+       .showtimes ul {
+
+           list-style-type: none;
+
+           padding: 1px;
+
+       }
+
+       .showtimes ul li {
+
+           margin-bottom: 5px;
+
+       }
+
+       .showtimes ul li a {
+
+           font-size: 18px;
+
+           color: #007bff;
+
+           text-decoration: none;
+
+       }
+
+       .showtimes ul li a:hover {
+
+           text-decoration: underline;
+
+       }
+
+       div { text-align: center; }
+
+       h6 { text-align: center; }
+
+       select {
+
+           font-size: 16px;
+
+           margin-top: 20px;
+
+           margin-bottom: 5px;
+
+           height: 40px;
+
+           text-align: center;
+
+       }
+
+       .movie-button-container {
+
+           position: absolute;
+
+           bottom: -50px;
+
+           width: 100%;
+
+           text-align: center;
+
+       }
+
+       .movie-button-container a {
+
+           
+
+           background: #000084;
+
+           border-radius: 1000px;
+
+           padding: 10px 16px;
+
+           color: #ffffff;
+
+           display: inline-block;
+
+           font: normal bold 20px/1 "Ubuntu", sans-serif;
+
+           text-align: center;
+
+           white-space: nowrap;
+
+           text-decoration: none;
+
+       }
+
+       a.movie-title {
+
+           text-decoration: none;
+
+           color: inherit;
+
+           font-weight:bold;
+
+           font-size: 20px;
+
+           margin-bottom: 5px;
+
+       }
+
+       @media (max-width: 768px) {
+
+           img {
+
+               width: 45%;
+
+           }
+
+           .fanimg {
+
+               width: 10%;
+
+           }
+
+           
+
+       @media (max-width: 480px) {
+
+           img {
+
+               width: 55%;
+
+           }
+
+           .movie-button-container a {
+
+           width:55%;
+
+           height:auto;
+
+           font: normal bold 60% "Ubuntu", sans-serif;
+
+           }
+
+           .fanimg {
+
+               width: 20%;
+
+           }
+
+       }
+
+   </style>
+
+</head>
+
+<body>
+
+   <img src="https://img1.wsimg.com/isteam/ip/6dfe16e1-e449-41a2-bf04-8e38bfb6df89/logo-trans-better-cropped.png/:/rs=w:631,h:308,cg=true,m/cr=w:631,h:308/qt=q:95" alt="Silver Star Cinemas">
+
+
+
+   <div id="dateFilter">
+
+       <select id="selectDate">
+
+           <!-- Options will be dynamically added by JavaScript -->
+
+       </select>
+
+   </div>
+
+   <p></p>
+
+
+
+   <div class="movies-container" id="movies">
+
+       <!-- Movie cards will be dynamically added here -->
+
+       <h1>Loading Showtimes...</h1>
+
+   </div>
+
+   <h6 id="myHeader"></h6>
+
+
+
+   <script>
+
+       document.addEventListener('DOMContentLoaded', function() {
+
+           const xmlUrl = 'https://29016.formovietickets.com:2235/showtimes.xml';
+
+
+
+           fetch(xmlUrl)
+
+               .then(response => response.text())
+
+               .then(xmlString => {
+
+                   const parser = new DOMParser();
+
+                   const xmlDoc = parser.parseFromString(xmlString, 'application/xml');
+
+                   const movies = xmlDoc.querySelectorAll('filmtitle');
+
+                   const moviesContainer = document.getElementById('movies');
+
+                   const selectDate = document.getElementById('selectDate');
+
+
+
+                   function populateDatesAndFilter() {
+
+                       selectDate.innerHTML = '';
+
+
+
+                       const uniqueDates = new Set();
+
+                       movies.forEach(movie => {
+
+                           const shows = movie.querySelectorAll('show');
+
+                           shows.forEach(show => {
+
+                               const date = show.querySelector('date').textContent;
+
+                               uniqueDates.add(date);
+
+                           });
+
+                       });
+
+
+
+                       const sortedDates = Array.from(uniqueDates).sort();
+
+
+
+                       sortedDates.forEach(date => {
+
+                           const today = new Date();
+
+                           let todaydate = new Date(today).toLocaleDateString("en-US", {
+
+                               weekday: 'short',
+
+                               month: 'short',
+
+                               day: 'numeric'
+
+                           });
+
+
+
+                           const option = document.createElement('option');
+
+                           option.value = date;
+
+                           let formattedDate = new Date(`${date.slice(0, 2)}/${date.slice(2, 4)}/${date.slice(4)}`).toLocaleDateString("en-US", {
+
+                               weekday: 'short',
+
+                               month: 'short',
+
+                               day: 'numeric'
+
+                           });
+
+                           if (todaydate === formattedDate) {
+
+                               formattedDate = 'Today';
+
+                           }
+
+                           option.textContent = formattedDate;
+
+                           selectDate.appendChild(option);
+
+                       });
+
+
+
+                       selectDate.addEventListener('change', filterShowtimes);
+
+                       filterShowtimes();
+
+                   }
+
+
+
+                   function filterShowtimes() {
+
+                       const selectedDate = selectDate.value;
+
+                       moviesContainer.innerHTML = '';
+
+
+
+                       const movieMap = new Map();
+
+
+
+                       movies.forEach(movie => {
+
+                           let movieName = movie.querySelector('name').textContent;
+
+                           if (movieName.toLowerCase().includes('movie name')) {
+
+                               return;
+
+                           }
+
+                            
+
+                           const shows = movie.querySelectorAll('show');
+
+                           let showOnSelectedDate = false;
+
+
+
+                           shows.forEach(show => {
+
+                               const date = show.querySelector('date').textContent;
+
+                               let day = date.slice(0, 2);
+
+                               let month = date.slice(2, 4);
+
+                               let year = date.slice(6, 8);
+
+
+
+                               let formatdate = `${day}/${month}/${year}`;
+
+                               
+
+                               if (movieName.toLowerCase().includes('horizon') && formatdate > '07/04/24') {
+
+                                   return;
+
+                               }
+
+
+
+                               if (date === selectedDate) {
+
+                                   showOnSelectedDate = true;
+
+                               }
+
+                           });
+
+
+
+                           if (showOnSelectedDate) {
+
+                               const cleanMovieName = movieName.replace(" 3D", "");
+
+                               if (!movieMap.has(cleanMovieName)) {
+
+                                   movieMap.set(cleanMovieName, { name: cleanMovieName, shows: [] });
+
+                               }
+
+                               const movieEntry = movieMap.get(cleanMovieName);
+
+
+
+                               shows.forEach(show => {
+
+                                   const date = show.querySelector('date').textContent;
+
+                                   const time = show.querySelector('time').textContent;
+
+                                   const salelink = show.querySelector('salelink').textContent;
+
+                                   if (date === selectedDate) {
+
+                                       const is3D = movieName.includes("3D");
+
+                                       movieEntry.shows.push({ time, salelink, is3D, link: movie.querySelector('website').textContent });
+
+                                   }
+
+                               });
+
+                           }
+
+                       });
+
+                       
+
+
+
+                       movieMap.forEach(movie => {
+
+                           movie.shows.sort((a, b) => a.time.localeCompare(b.time));
+
+
+
+                           const movieDiv = document.createElement('div');
+
+                           movieDiv.classList.add('movie');
+
+                           
+
+                           
+
+
+
+                           const img = document.createElement('img');
+
+                           img.src = '';
+
+                           img.alt = `${movie.name} Poster`;
+
+                           movieDiv.appendChild(img);
+
+                           
+
+
+
+                           const movieDetailsDiv = document.createElement('div');
+
+                           movieDetailsDiv.classList.add('movie-details');
+
+
+
+                           const titleElement = document.createElement('a');
+
+                           titleElement.textContent = movie.name;
+
+                           titleElement.href = movie.shows[0].link; // Assuming the link is the same for all showtimes
+
+                            titleElement.target = "_blank"
+
+                           titleElement.classList.add('movie-title');
+
+                           movieDetailsDiv.appendChild(titleElement);
+
+
+
+                           const showtimesDiv = document.createElement('div');
+
+                           showtimesDiv.classList.add('showtimes');
+
+
+
+                           const ul = document.createElement('ul');
+
+                           movie.shows.forEach(show => {
+
+                               const dateTime = new Date(`${selectedDate.slice(0, 2)}/${selectedDate.slice(2, 4)}/${selectedDate.slice(4)} ${show.time.slice(0, 2)}:${show.time.slice(2)}`);
+
+                               const formattedTime = dateTime.toLocaleTimeString("en-US", {
+
+                                   hour: 'numeric',
+
+                                   minute: '2-digit'
+
+                               });
+
+
+
+                               const li = document.createElement('li');
+
+                               const link = document.createElement('a');
+
+                               link.target = "_blank";
+
+                               link.href = show.salelink;
+
+                               link.textContent = show.is3D ? `${formattedTime} (3D)` : formattedTime;
+
+                               li.appendChild(link);
+
+                               ul.appendChild(li);
+
+                           });
+
+
+
+                           showtimesDiv.appendChild(ul);
+
+                           movieDetailsDiv.appendChild(showtimesDiv);
+
+                           movieDiv.appendChild(movieDetailsDiv);
+
+                          
+
+
+
+                           const ticketButtonContainer = document.createElement('div');
+
+                           ticketButtonContainer.classList.add('movie-button-container');
+
+                           const ticketButtonLink = document.createElement('a');
+
+                           ticketButtonLink.textContent = 'Get Tickets';
+
+                           ticketButtonLink.href = "https://29016.formovietickets.com:2235"
+
+                           ticketButtonLink.target = "_blank"
+
+                           ticketButtonContainer.appendChild(ticketButtonLink);
+
+                           movieDiv.appendChild(ticketButtonContainer);
+
+                           
+
+                        
+
+                           moviesContainer.appendChild(movieDiv);
+
+                           
+
+                           
+
+
+
+                           searchAndSetPosterImage(movie.name, img, titleElement);
+
+                           
+
+                       });
+
+                   }
+
+
+
+                   function searchAndSetPosterImage(movieName, imgElement, titleElement) {
+
+                       const apiKey = '4d46d7532f0f72baaff7fb8e3af73772';
+
+                       const apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${encodeURIComponent(movieName)}`;
+
+
+
+                       fetch(apiUrl)
+
+                           .then(response => response.json())
+
+                           .then(data => {
+
+                               if (data.results && data.results.length > 0) {
+
+                                   const posterPath = data.results[0].poster_path;
+
+                                   if (posterPath) {
+
+                                       const posterUrl = `https://image.tmdb.org/t/p/w500/${posterPath}`;
+
+                                       imgElement.src = posterUrl;
+
+                                   } else {
+
+                                       console.log(`No poster found for ${movieName}`);
+
+                                       imgElement.alt = `No Poster Available for ${movieName}`;
+
+                                   }
+
+                               } else {
+
+                                   console.log(`No results found for ${movieName}`);
+
+                                   imgElement.style.display = "none";
+
+                                   titleElement.textContent = movieName;
+
+                               }
+
+                           })
+
+                           .catch(error => {
+
+                               console.error(`Error fetching poster for ${movieName}:`, error);
+
+                               imgElement.alt = `Error Loading Poster for ${movieName}`;
+
+                           });
+
+                   }
+
+
+
+                   populateDatesAndFilter();
+
+               })
+
+               .catch(error => {
+
+                   console.error('Error fetching XML:', error);
+
+               });
+
+       });
+
+   </script>
+
+   <a href="https://www.fandango.com/dipson-warren-mall-cinemas-aapju/theater-page?format=all" target="_blank" class="fanimg">
+
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Fandango_2014.svg/300px-Fandango_2014.svg.png" alt="Fandango">
+
+   </a>
+
+   <h6>Note: Ticket links use an external, secure server for purchases.</h6>
+
+</body>
+
+</html>
