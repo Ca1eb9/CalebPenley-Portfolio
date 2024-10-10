@@ -1,0 +1,1 @@
+This is my more theoretical research into AI using advanced methods. I am attempting to create a better AI more suited for this complex world using novel techniques centered around theories of the human conciousness.
