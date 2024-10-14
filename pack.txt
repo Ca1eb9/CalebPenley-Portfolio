@@ -1,0 +1,4 @@
+version!!!!!!
+
+pyupdater build --clean --onefile --windowed --no-embed-manifest --icon='C:\Users\caleb\Desktop\MayaMain\icon.ico' --add-data='C:\Users\caleb\Desktop\MayaMain\icon.ico;.' --add-binary='C:\Users\caleb\Desktop\MayaMain\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll;.' --add-binary='C:\Users\caleb\Desktop\MayaMain\Microsoft.CognitiveServices.Speech.extension.codec.dll;.' --add-binary='C:\Users\caleb\Desktop\MayaMain\Microsoft.CognitiveServices.Speech.extension.kws.dll;.' --add-binary='C:\Users\caleb\Desktop\MayaMain\Microsoft.CognitiveServices.Speech.extension.lu.dll;.' --add-data='C:\Users\caleb\Desktop\MayaMain\mayadetect.table;.' --app-version 0.1.0 main.py
+pyupdater pkg --process --sign
