@@ -2,13 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package compsci_221_pa3_cp;
+package;
 
 /**
  *
  * @author calebpenley
  */
-//Address class is intended to format and "objectify" an inputted address
+///
+//Address class is intended to format and "objectify" an inputted address to be ready to be displayed
+///
 public class Address {
     //init
     private String street;

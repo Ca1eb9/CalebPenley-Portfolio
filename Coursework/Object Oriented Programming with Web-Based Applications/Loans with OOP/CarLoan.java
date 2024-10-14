@@ -2,13 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package compsci_221_pa3_cp;
+package;
 
 /**
  *
  * @author calebpenley
  */
-//CarLoan class is a subclass of LoanAccount and uses inheritance for high efficacy
+///
+//CarLoan class is a subclass of LoanAccount and uses inheritance to organize loans
+///
 public class CarLoan extends LoanAccount {
     //init
     private String vehicleVIN;

@@ -2,14 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package compsci_221_pa3_cp;
+package;
 import java.util.ArrayList;
 
 /**
  *
  * @author calebpenley
  */
-// Customer class to keep track of loan accounts per customer
+///
+// Customer class to keep track of loan accounts per customer and customers as a whole using their name and ssn
+///
 public class Customer {
     //Init
     private String firstName;
@@ -37,7 +39,7 @@ public class Customer {
     public void addLoanAccount(LoanAccount account){
         loanAccounts.add(account);
     }
-    //Monthly report that prints all accounta associated with the customer
+    //Monthly report that prints all loan accounts associated with the customer
     public void printMonthlyReport(){
         System.out.println("Account Report for Customer: "+firstName+" "+lastName+" with "+SSN+"\n");
         for(LoanAccount loanAccount:loanAccounts){

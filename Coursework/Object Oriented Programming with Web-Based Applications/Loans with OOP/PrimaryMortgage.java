@@ -2,13 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package compsci_221_pa3_cp;
+package;
 
 /**
  *
  * @author calebpenley
  */
-//PrimaryMortgage class is a subclass of LoanAccount and uses inheritance for high efficacy
+///
+//PrimaryMortgage class is a subclass of LoanAccount and uses inheritance to organize different loan types
+///
 public class PrimaryMortgage extends LoanAccount {
     //init
     private double PMIMonthlyAmount;

@@ -4,7 +4,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package cmpsc_221_pa4_cp;
+package;
 //Import required packages
 import javax.swing.*;
 import java.awt.*;
@@ -32,7 +32,7 @@ public class PizzaCalcGUI extends JFrame{
     public PizzaCalcGUI(){
         //initilizing the GUI's objects using swing and awt
         super("Pizza Servings Calculator"); //frame title
-        setLayout(new GridLayout(4,1));
+        setLayout(new GridLayout(4,1));//frame uses a grid of 4
         pizzaTitle = new JLabel("Pizza Servings Calculator");
         pizzaTitle.setFont(new Font("Times New Roman", Font.PLAIN, 26)); //increase font and times new roman like example
         pizzaTitle.setForeground(Color.RED); // red font like example
@@ -40,16 +40,16 @@ public class PizzaCalcGUI extends JFrame{
         pizzaTitle.setVerticalTextPosition(SwingConstants.BOTTOM);
         slicesLabel = new JLabel();
         slicesLabel.setText("Enter the size of the pizza in inches:");
-        slicesField = new JTextField(4);
+        slicesField = new JTextField(4);//text field with width 4
         calcButton = new JButton("Calculate Servings");
         servingsLabel = new JLabel();
         servingsLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         servingsLabel.setVerticalTextPosition(SwingConstants.BOTTOM);
         CalcButtonHandler handler = new CalcButtonHandler(); // Button Handler
-        calcButton.addActionListener(handler);
+        calcButton.addActionListener(handler);//add handler as the listener of the button
         //////
         //Create panel objects to help correctly display each component in the gui
-        line1 = new JPanel(new BorderLayout());
+        line1 = new JPanel(new BorderLayout());//using borderlayout
         line2 = new JPanel();
         line4 = new JPanel();
         line1.setBorder(new EmptyBorder(20, 35, 20, 0)); // creates margins to suspend the object in the middle of the panel

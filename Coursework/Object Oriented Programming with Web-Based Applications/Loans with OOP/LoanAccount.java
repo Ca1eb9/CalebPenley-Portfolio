@@ -3,13 +3,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package compsci_221_pa3_cp;
+package;
 import java.util.ArrayList;
-//Loan account class intended to use create a an object of general loan details, and be able to have several subclasses
+
 /**
  *
  * @author calebpenley
  */
+///
+//Loan account class intended to use create a an object of general loan details, and be able to have several subclasses to help organize different loan types
+///
 public class LoanAccount {
     //Class init
     private double annualInterestRate;
@@ -42,7 +45,7 @@ public class LoanAccount {
         return annualInterestRate;
     }
     
-    //method for returning class info
+    //method for returning class info as a string
     public String toString() {
         return " with:\nPrincipal: $"+getPrinciple()+"\nAnnual Interest Rate: "+getAnnualInterestRate()*100.00+"%\nTerm of Loan in Months: "+getMonths()+"\nMonthly Payment: $"+calculateMonthlyPayment();
     }
