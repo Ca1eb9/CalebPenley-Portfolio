@@ -23,10 +23,10 @@ realconfig='''[config]\n
 changelog = False\n
 version = {ver}\n
 '''.format(ver=APP_VERSION)
-serveriph='http://23.239.9.14'
-serverip='23.239.9.14'
-serveriph2='http://104.38.188.173'
-serverip2='104.38.188.173'
+serveriph='http://IP'
+serverip='IP'
+serveriph2='http://IP'
+serverip2='IP'
 def quit(icon):
     global q
     q=False
@@ -146,7 +146,7 @@ def window():
         g = geocoder.ip('me').latlng
         lat=g[0]
         lon=g[1]
-        key='5577d675a4db94ad5d593b15c918f676'
+        key='secret'
         url='https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&units=imperial&appid={API}'.format(lat=lat, lon=lon, API=key)
         weather_info = requests.get(url).json()
         current=weather_info['current']
@@ -191,7 +191,7 @@ def window():
                 lon=g[1]
             except:
                 return
-            key='5577d675a4db94ad5d593b15c918f676'
+            key='secret'
             url='https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&units=imperial&appid={API}'.format(lat=lat, lon=lon, API=key)
             if current=='':
                 weather_info = requests.get(url).json()
@@ -364,7 +364,7 @@ def main():
 
     from util.utils import update
     update('stable', status)
-    speech_config = speechsdk.SpeechConfig(subscription="5143e3c9837648d6a59de18853ae25aa", region="eastus")
+    speech_config = speechsdk.SpeechConfig(subscription="secret", region="eastus")
     speech_config.speech_synthesis_voice_name ="en-US-SaraNeural"
     audio_config = speechsdk.audio.AudioOutputConfig(use_default_speaker=True)#filename="file.wav"
     synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_config)
@@ -592,7 +592,7 @@ def main():
     s.close()
     sys.exit(0)       
 def voicedetect():
-    speech_config = speechsdk.SpeechConfig(subscription="5143e3c9837648d6a59de18853ae25aa", region="eastus")
+    speech_config = speechsdk.SpeechConfig(subscription="secret", region="eastus")
     speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config)
     path = pathlib.Path(__file__).parent.resolve()
     try:

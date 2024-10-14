@@ -18,7 +18,7 @@ def weather(entities):
     g = geocoder.ip('me').latlng
     currentlat=g[0]
     currentlon=g[1]
-    key='5577d675a4db94ad5d593b15c918f676'
+    key='secret'
     import requests
     import datetime
     if 'location' in type:
@@ -148,7 +148,7 @@ def todaytime():
 
 def web_query(query):
     print('hi')
-    subscription_key = "f13032f48cee48cda419d9c02dd3e4f0"
+    subscription_key = "secret"
     assert subscription_key
     search_url = "https://api.bing.microsoft.com/v7.0/search"
     import requests

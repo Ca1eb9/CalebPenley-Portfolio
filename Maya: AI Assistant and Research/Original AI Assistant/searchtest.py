@@ -1,4 +1,4 @@
-subscription_key = "f13032f48cee48cda419d9c02dd3e4f0"
+subscription_key = "secret"
 assert subscription_key
 search_url = "https://api.bing.microsoft.com/v7.0/search"
 search_term = ""

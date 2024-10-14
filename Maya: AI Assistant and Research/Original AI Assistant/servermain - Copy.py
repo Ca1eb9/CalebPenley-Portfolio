@@ -13,11 +13,11 @@ nlp.load()
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 port = 5250
-ip='23.239.9.14'
+ip='IP'
 try:
     s.bind((ip, port))
 except:
-    ip = '104.38.188.173'
+    ip = 'IP'
     s.bind((ip, port))
 s.listen(100)
 clientlist = []

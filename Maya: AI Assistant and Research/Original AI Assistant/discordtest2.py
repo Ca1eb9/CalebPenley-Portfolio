@@ -1,4 +1,4 @@
-discord_token = "Njc4NzU4NjgyMjc1NjEwNjI3.XkndSA.vc1IIpGRDdfptGj7CL1kerBdlMo"
+discord_token = "secret"
 import asyncio
 import discord
 from discord.ext import commands,tasks
