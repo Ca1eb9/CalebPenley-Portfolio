@@ -11,18 +11,23 @@ I am a passionate and driven individual with a love for challenges and pushing t
 
 Here are some of my key project catagories. You can find more details by exploring the respective folders above. The work ranges from beginner code to full fledged scripts currently used in the industry!
 
-### 1. **Coursework**
+### **Coursework**
 A display of my various coursework accomplished during my time at Penn State
 
 ---
 
-### 2. **Maya: An Experimental Project**
+### **Maya: An Experimental Project**
 A selection of my efforts to revolutionize the way we think about AI
 
 ---
 
-### 3. **Movie Theater Web Script**
+### **Movie Theater Web Script**
 A simple HTML script I wrote as an assistant manager at a "start-up" movie theater this last summer
+
+---
+
+### **Other**
+Some miscellaneous smaller projects focused on expanding my knowledge
 
 ---
 
