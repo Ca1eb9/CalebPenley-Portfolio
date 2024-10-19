@@ -22,7 +22,7 @@ A selection of my efforts to revolutionize the way we think about AI
 ---
 
 ### 3. **Movie Theater Web Script**
-A simple HTML script I wrote as an assistant manager at a "start-up" movie theater
+A simple HTML script I wrote as an assistant manager at a "start-up" movie theater this last summer
 
 ---
 
