@@ -16,7 +16,7 @@ A display of my various coursework accomplished during my time at Penn State
 
 ---
 
-### 2. **Maya: An Experimental Project on AI**
+### 2. **Maya: An Experimental Project**
 A selection of my efforts to revolutionize the way we think about AI
 
 ---
