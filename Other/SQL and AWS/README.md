@@ -10,3 +10,4 @@
 ## What I learned
 - AWS has many different technologies and could be used in many stages of development.
 - SQL allows connection to databases from a variety of technologies of many languages.
+- SQL databases allow concurrent connections.
