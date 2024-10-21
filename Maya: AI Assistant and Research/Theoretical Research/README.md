@@ -12,8 +12,11 @@
 
 ## What I learned
 - Optimization is an important subject when working with mathematical models to not avoid overfitting and improve efficiency
-- We are currently at the forefront of AI research, and a open-minded and diverse team is integral to creating a revolutionary advancement
-- As with most things, machine learning is not a simple path, rather a perplex methodology filled with endless combiniations
+- How to finetune a state-of-the-art NLP model for deductive reasoning
+- How different types of dropout can change how the model trains
+- How complex the frameworks and networks are that could model the human brain
+- How models use high-dimensional vector similarity to accurately predict 
+
 
 ## Future Improvements
 - I plan to start programming these novel mechanisms very soon
