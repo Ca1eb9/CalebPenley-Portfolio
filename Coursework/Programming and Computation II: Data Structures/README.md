@@ -13,4 +13,4 @@
 - Data structures can be developed to aid in program creation, allowing for more cohesive and understandable solutions
 - Even simple data structures can be used in a vast amount of different ways
 - Python's class and inheritance structure are very useful when working with complex data and algorithms
-- Algorithms can be solved in a variety of ways but it is important to consider time and space complexity
+- Problems can be solved in a variety of ways but it is important to consider time and space complexity
