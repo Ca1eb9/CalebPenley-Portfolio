@@ -20,3 +20,9 @@
 
 ## Future Improvements
 - I plan to start programming these novel mechanisms very soon
+
+# Images:
+![Original Human-based AI flowchart](Maya_R&D.jpg)
+![Training and finetuning Tiny LLama](Maya_Wandb_data.png)
+![Training and finetuning Tiny LLama](Maya_wandb_data1.png)
+
