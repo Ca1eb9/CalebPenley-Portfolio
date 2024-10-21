@@ -8,8 +8,8 @@
 - TMDB API
 
 ## What I learned
-- Web development can be easier than it may seem.
 - These different web technologies can be used side-by-side in just a single script.
+- Production code needs to undergo rigerious testing in extreme enviroments (things the developer is not accounting for)
 
 ## Future Improvements
 - I plan to integrate a few other APIs to help make the program more reliable and streamlined.
