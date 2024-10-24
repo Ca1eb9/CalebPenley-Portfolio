@@ -15,4 +15,4 @@
 - I plan to integrate a few other APIs to help make the program more reliable and streamlined.
 
 # Images:
-![Original Human-based AI flowchart](silverstar.png)
+![Silver Star Showtimes Image](silverstar.png)
