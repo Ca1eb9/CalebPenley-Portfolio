@@ -19,3 +19,6 @@ Common Libraries: Mindmeld, Microsft/Azure Cognitive services, flask, sockets, p
 
 ## Future Improvements
 - With more knowledge and understanding, I plan rework everything and integrate it with the models I develop from my theoretical research
+
+# Images:
+![Maya Application](maya.png)
