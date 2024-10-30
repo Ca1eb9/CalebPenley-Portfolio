@@ -16,4 +16,4 @@ Coursework in my current class focused on using Java to create OOP applications 
 
 # Images:
 ![Java Pizza GUI example](Javapizza.png)
-![Java Pizza GUI example](Javapizza2.png)
+![Java Drawing App example](javadrawingapp.png)
