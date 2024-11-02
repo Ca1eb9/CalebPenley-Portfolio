@@ -5,7 +5,7 @@ This is my work portfolio – a curated showcase of projects in software enginee
 ---
 
 ### Welcome!
-I am a passionate and driven individual with a love for challenges and pushing the limits of what is deemed possible. I am currently a computer science student @ Pennsylvania State University. In my freetime, I like to socialize and make new connections, play games, workout, and program. A few of my computer science interests consist of software, hardware, AI, IoT, networking, and much more. I am currently researching and developing ways to revolutionize our use of AI and the rest of technology.
+I am a passionate and driven individual with a love for challenges and pushing the limits of what is deemed possible. I am currently a computer science student at Pennsylvania State University. In my freetime, I like to socialize and make new connections, play games, workout, and program. A few of my computer science interests consist of software, hardware, AI, IoT, networking, and much more. I am currently researching and developing ways to revolutionize our use of AI and the rest of technology.
 
 ## 📂 My Work
 
