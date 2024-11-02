@@ -9,6 +9,7 @@ This project is mainly functional programming as I had not yet learned OOP at th
 See more about Maya [here][def]
 ## Technologies: 
 Python, Linux, Azure, Docker, Open Weather API
+
 Common Libraries: Mindmeld, Microsft/Azure Cognitive services, flask, sockets, pandas, numpy, pyinstaller, sklearn, discord, tkinter, transformers
 
 [def]: https://github.com/Ca1eb9/Maya
