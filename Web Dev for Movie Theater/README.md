@@ -1,10 +1,11 @@
 # Silver Star Cinemas Showtime Viewer
 
 ### Overview
-- The HTML script I developed for a movie theater while I was assistant manager there this last summer.
+- The HTML script I developed for a movie theater while I was assistant manager there this last summer and still work on in my freetime.
 
 ### Technologies
 - HTMl, JS, CSS
+- Google Cloud, Google Firestore Database
 - TMDB API
 
 ## What I learned
@@ -16,3 +17,4 @@
 
 # Images:
 ![Silver Star Showtimes Image](silverstar.png)
+![Silver Star Showtimes Weekly View Image](silverstarweekly.png)
