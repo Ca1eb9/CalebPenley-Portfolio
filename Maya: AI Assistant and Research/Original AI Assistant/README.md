@@ -3,7 +3,7 @@
 ### Overview
 Maya is an attempt to develop an original AI assistant similar to Amazon Alexa or Google Home. The backend was created using docker for mindmeld's model prediction, multi-threaded sockets for seamless communication between clients, and flask for database integration for CI/CD; all running on a CLI Linux server hosted by Linode. The application was created to support Mac/Linux and Windows. 
 
-This project is mainly functional programming as I had not yet learned OOP at the time of development. There is also beginner use of machine learning as I had not even taken pre-calculus as of development.
+This project is mainly functional programming as I had not yet learned OOP at the time of development. There is also beginner use of machine learning as I had not even taken pre-calculus during the time of development.
 
   
 See more about Maya [here][def]
