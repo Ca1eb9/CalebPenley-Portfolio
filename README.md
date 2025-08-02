@@ -9,7 +9,7 @@ I am a passionate and driven individual with a love for challenges and pushing t
 
 ## 📂 My Work
 
-Here are some of my key project catagories. You can find more details by exploring the respective folders above. The work ranges from beginner code to full fledged scripts currently used in the industry!
+Here are some of my key project catagories. You can find more details by exploring the respective folders above. The work ranges from beginner code to full fledged applications!
 
 ### **Coursework**
 A display of my various coursework accomplished during my time at Penn State
