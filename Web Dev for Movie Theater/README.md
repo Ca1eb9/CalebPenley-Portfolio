@@ -1,7 +1,7 @@
 # Silver Star Cinemas Showtime Viewer
 
 ### Overview
-- The HTML script I developed for a movie theater while I was assistant manager there this last summer and still work on in my freetime.
+- The HTML script I developed showcasing a daily and weekly viewer for the showtimes of a local movie theater I help manage.
 
 ### Technologies
 - HTMl, JS, CSS
