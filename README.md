@@ -45,6 +45,6 @@ I’m constantly learning and tinkering when my time permits, so plan to see mor
 Feel free to reach out:
 
 - [**LinkedIn**](https://linkedin.com/in/calebpenley)
-- **Personal Website**: (Coming soon)
+- [**Personal Website**](https://calebpenley.dev)
 
 Thanks for visiting my portfolio!
